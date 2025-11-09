@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1"><stop offset="0" stop-color="#071028"/><stop offset="1" stop-color="#08111a"/></linearGradient>
+  </defs>
+  <rect width="800" height="200" fill="url(#bg)"/>
+  <g transform="translate(40,20)" fill="#e6eef6" font-family="Arial, sans-serif">
+    <text x="0" y="40" font-size="28" font-weight="700">Будь в безопасности онлайн</text>
+    <text x="0" y="80" font-size="16" fill="#9aa4b2">Простые правила для школьников и родителей</text>
+  </g>
+  <g transform="translate(520,20)">
+    <rect x="0" y="0" width="240" height="160" rx="12" fill="#0b1220" opacity="0.7"/>
+    <path d="M120 12 L40 40 v48c0 40 32 68 80 84 48-16 80-44 80-84V40L120 12z" fill="#3b82f6" opacity="0.95"/>
+    <path d="M90 88 L110 108 140 78" stroke="#0b1220" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </g>
+</svg>
