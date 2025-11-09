@@ -1,0 +1,42 @@
+:root{
+  --bg:#0f1724;
+  --card:#0b1220;
+  --muted:#9aa4b2;
+  --accent:#3b82f6;
+  --accent-2:#06b6d4;
+  --glass: rgba(255,255,255,0.03);
+  --radius:12px;
+  --maxw:1000px;
+  color-scheme: dark;
+  font-family: Inter, system-ui, Arial, sans-serif;
+}
+*{box-sizing:border-box}
+body{
+  margin:0;
+  background: linear-gradient(180deg,#071028 0%, #081426 50%, #08111a 100%);
+  color:#e6eef6;
+  padding:24px;
+  display:flex;
+  justify-content:center;
+}
+.wrap{width:100%;max-width:var(--maxw)}
+header{display:flex;gap:16px;align-items:center;margin-bottom:20px}
+.logo img{border-radius:12px}
+h1{font-size:20px;margin:0}
+.lead{margin:4px 0 0;color:var(--muted);font-size:13px}
+main{display:grid;grid-template-columns:1fr 320px;gap:20px;align-items:start}
+.content{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));padding:18px;border-radius:var(--radius);box-shadow:0 6px 24px rgba(2,6,23,0.6)}
+.muted{color:var(--muted)}
+.section{margin-bottom:18px}
+.card-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+.card{background:var(--card);padding:12px;border-radius:10px;border:1px solid rgba(255,255,255,0.03)}
+.aside-card{background:var(--card);padding:12px;border-radius:12px;border:1px solid rgba(255,255,255,0.03);margin-bottom:12px}
+.badge{background:linear-gradient(180deg,var(--accent),var(--accent-2));padding:6px 8px;border-radius:8px;font-weight:600;font-size:12px;display:inline-block}
+.hero{width:100%;max-height:160px;object-fit:cover;border-radius:8px;margin-bottom:12px}
+.quiz-question{font-weight:600;margin-bottom:8px}
+.answers{display:grid;gap:8px;margin-top:8px}
+.btn{background:var(--accent);border:none;padding:8px 12px;border-radius:8px;color:white;cursor:pointer}
+.quiz-controls{display:flex;gap:8px;align-items:center;margin-top:10px}
+footer{margin-top:18px;text-align:center;color:var(--muted);font-size:13px}
+aside{position:sticky;top:24px;align-self:start}
+@media (max-width:880px){main{grid-template-columns:1fr}aside{position:static}}
