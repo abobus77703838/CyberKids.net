@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Цифровая безопасность школьника</title>
+  <meta name="description" content="Простой образовательный сайт: советы и правила цифровой безопасности для школьников и родителей." />
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="wrap" role="main">
+    <header>
+      <div class="logo">
+        <img src="images/logo.svg" alt="Логотип - щит" width="64" height="64">
+      </div>
+      <div>
+        <h1>Цифровая безопасность школьника</h1>
+        <p class="lead">Короткие понятные правила и интерактивная викторина для школьников и родителей.</p>
+      </div>
+    </header>
+
+    <main>
+      <section class="content" aria-labelledby="main-title">
+        <img class="hero" src="images/hero.svg" alt="Иллюстрация безопасности в сети">
+        <h2 id="main-title">Что такое цифровая безопасность?</h2>
+        <p class="muted">
+          Цифровая безопасность — это правила и навыки, которые помогают защищать личные данные, устройства и репутацию в интернете.
+          Здесь простые практические советы, которые школьник может применить прямо сейчас.
+        </p>
+
+        <div class="section">
+          <h2>Базовые правила</h2>
+          <div class="card-grid">
+            <article class="card" aria-labelledby="rule1">
+              <h3 id="rule1">1. Надёжные пароли</h3>
+              <p>Используй уникальные пароли для важных аккаунтов. Пароль должен быть длинным (12+ символов), смешивать буквы, цифры и символы.</p>
+            </article>
+
+            <article class="card" aria-labelledby="rule2">
+              <h3 id="rule2">2. Двухфакторная аутентификация</h3>
+              <p>Включай 2FA там, где это доступно — это повышает безопасность даже при угоне пароля.</p>
+            </article>
+
+            <article class="card" aria-labelledby="rule3">
+              <h3 id="rule3">3. Осторожность с ссылками</h3>
+              <p>Не переходи по подозрительным ссылкам и не открывай вложения от незнакомых людей — частые способы фишинга.</p>
+            </article>
+
+            <article class="card" aria-labelledby="rule4">
+              <h3 id="rule4">4. Настройки приватности</h3>
+              <p>Проверь настройки конфиденциальности в соцсетях: кто видит публикации, список друзей и личные данные.</p>
+            </article>
+          </div>
+        </div>
+
+        <div class="section">
+          <h2>Мини-викторина</h2>
+          <div class="card quiz-card">
+            <div id="quiz-area">
+              <div id="q-text" class="quiz-question">Загрузка...</div>
+              <div id="answers" class="answers"></div>
+              <div class="quiz-controls">
+                <button id="nextBtn" class="btn">Следующий вопрос</button>
+                <div id="score" class="muted">Баллы: 0</div>
+              </div>
+            </div>
+            <div id="quiz-end" class="muted" style="display:none;margin-top:8px">
+              <p><strong>Тест завершён.</strong> Возвращайся, чтобы повторить и улучшить результат.</p>
+            </div>
+          </div>
+        </div>
+
+        <footer>
+          <p class="muted">Создано для обучения — делись с друзьями и будь внимателен в сети.</p>
+        </footer>
+      </section>
+
+      <aside>
+        <div class="aside-card">
+          <div class="badge">Совет</div>
+          <div>
+            <strong>Не говори пароль даже лучшему другу</strong>
+            <div class="muted">Это поможет защитить тебя, если аккаунт взломают.</div>
+          </div>
+        </div>
+
+        <div class="aside-card">
+          <h3>Контакты</h3>
+          <p class="muted">Если случилось что-то серьёзное — поговори с родителем или школьным психологом. Сохраняй доказательства (скриншоты).</p>
+        </div>
+      </aside>
+    </main>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
